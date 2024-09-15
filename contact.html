@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ERA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="ERA Logo" class="logo">
+                <h1 class="company-name">ERA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="what-we-do.html" target="_blank">What We Do</a></li>
+                    <li><a href="regions.html" target="_blank">Explore by Region</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We value your feedback and inquiries. Here’s how you can get in touch with us:</p>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Office Locations -->
+            <div class="office-locations">
+                <h3>Our Office Locations</h3>
+                <div class="office">
+                    <h4>Head Office</h4>
+                    <p>123 Business Street, Suite 456</p>
+                    <p>City, Country, 12345</p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                    <p>Email: head.office@example.com</p>
+                </div>
+                <div class="office">
+                    <h4>Regional Office - Europe</h4>
+                    <p>789 Market Avenue, Floor 12</p>
+                    <p>City, Country, 67890</p>
+                    <p>Phone: +44 (0) 1234 567890</p>
+                    <p>Email: europe.office@example.com</p>
+                </div>
+                <div class="office">
+                    <h4>Regional Office - Asia</h4>
+                    <p>456 Commerce Road, 3rd Floor</p>
+                    <p>City, Country, 54321</p>
+                    <p>Phone: +86 (0) 123 456 7890</p>
+                    <p>Email: asia.office@example.com</p>
+                </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/company" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2024 ERA (Economical Research & Analysis). All rights reserved.</p>
+    </footer>
+</body>
+</html>
